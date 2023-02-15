@@ -1,0 +1,27 @@
+GET  http://localhost:5000/books
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImhvbGV0ZXgiLCJpYXQiOjE2NzE2MTg5NTcsImV4cCI6MTY3MTYxODk4N30.7mvNfAjhDblxPLfQHWVFJSFAvNr-vW7KFZYOfj68q_c
+
+###
+POST  http://localhost:5500/login
+Content-Type: application/json
+
+{
+    "username": "holetex"
+}
+
+
+###
+POST http://localhost:5500/refreshToken
+Content-Type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImhvbGV0ZXgiLCJpYXQiOjE2NzE2MTg5MTgsImV4cCI6MTY3MTYxODk0OH0.Ro3LnbOa0uzLGuyCsefj0pX7aiNGLdqPymsRvuNbo6I"
+}
+
+### 
+POST http://localhost:5500/logout
+Content-Type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImhvbGV0ZXgiLCJpYXQiOjE2NzE2MTgzNDIsImV4cCI6MTY3MTYxODM3Mn0.zOvtcs24DolptpE6HbM1nY4dBo8g87USFsnqlcCVE6Q"
+}

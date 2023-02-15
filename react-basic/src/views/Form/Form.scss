@@ -1,0 +1,30 @@
+.form-container {
+  border: 1px solid wheat;
+  width: 450px;
+  margin: 20px auto;
+  padding: 20px;
+  font-size: 20px;
+  .row {
+    width: 100%;
+    content: "";
+    display: table;
+    clear: both;
+    margin-top: 10px;
+    .label {
+      float: left;
+      width: 37%;
+      margin-top: 6px;
+      text-align: left;
+    }
+    input {
+      float: left;
+      width: 60%;
+      margin: 10px 0 0 5px;
+    }
+  }
+  .submit {
+    margin: 20px 0 0 -10px;
+    background: blue;
+    padding: 5px 10px;
+  }
+}
