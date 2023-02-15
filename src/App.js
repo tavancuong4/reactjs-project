@@ -46,6 +46,7 @@ function App() {
         navigate("/login"),
         console.log("Ban da thanh cong")
       )
+
       .catch(console.log("Ban da that bai"));
   };
   let isEmptyObj = Object.keys(user).length === 0;
